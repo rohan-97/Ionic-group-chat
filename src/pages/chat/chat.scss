@@ -1,0 +1,40 @@
+page-chat {
+	.message-box {
+    display: inline-block;
+    background: color($colors,"primary");
+    color: white;
+    padding: 10px 15px;
+    border: 10px;
+    margin: 5px;
+    border-radius: 13px;
+    min-width: 40%;
+}
+	.message-box-user{
+		float: right;
+    background: color($colors,"secondary");
+	}
+	.username {
+	font-weight: bold;
+	font-size: 80%;
+}
+	.messageText {
+	font-size: 130%;
+	}
+	.message {
+	clear: both;
+}
+	.ion-input{
+		font-size: 120%;
+		padding-left: 10px;
+	}
+	.special-message .message-box {
+	background: rgba(0,0,0,0.05);
+	color: black;
+	text-align: center;
+	font-size: 80%;
+	width: 100%;
+	float: none;
+	padding: 5px;
+	margin: 5px;
+}
+}
